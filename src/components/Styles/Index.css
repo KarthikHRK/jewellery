@@ -1,0 +1,22 @@
+.slick-slider {
+
+   
+  width: 85% !important;
+  margin: 0px auto !important;
+}
+.slick-center{
+
+
+  transition: 1s;
+}
+.slick-slide img {
+
+  margin: 0px auto;
+  padding: 20px;
+}
+
+
+body {
+
+  overflow-: hidden !important;
+}

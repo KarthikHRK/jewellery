@@ -1,0 +1,74 @@
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,300;1,900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100;1,200;1,300;1,400&family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,300;1,900&display=swap');
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+    overflow-x: hidden;
+    background-color: rgba(247, 236, 244, 0.986);
+}
+
+.cnav{
+    display: none;
+   
+}
+.cnav:hover{
+    display: block;
+   
+}
+.nav:hover ~ .cnav{
+    display: block;
+
+
+}
+
+.title{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    text-transform: capitalize ;
+
+}
+.text2{
+position: relative;
+
+}
+.text2::before{
+    
+    position:absolute;
+     top:50%;
+     left: 50%;
+     width: 100%;
+     height: 100%;
+     z-index: 2;
+     background-color: rgba(17, 14, 4, 0.877);
+     content: "recent event"; 
+     transform: translate(-50%,-50%);
+     color: rgb(255, 216, 44);
+     opacity: 0;
+     transition:  0.5s ease-in-out;
+     cursor: pointer;
+     text-align: center;
+     padding-top:50%;
+     font-size: 1.5rem;
+     text-transform: capitalize;
+
+}
+ .text2:hover::before{
+     opacity: 1;
+ }     
+    
+    

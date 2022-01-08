@@ -1,0 +1,182 @@
+.btn-container{
+
+  
+    padding: 50px 100px !important;
+    height: auto;
+position: relative;
+height: 250px;
+}
+
+.bt{
+
+margin: 0px !important;
+
+
+}
+
+
+.bt div{
+
+height: 70px !important;
+background-color: rgb(85, 22, 22);
+padding: 20px 0px;
+text-align: center;
+color: rgb(255, 254, 254);
+cursor: pointer;
+transition: 0.5s;
+position: relative;
+font-size: 20px;
+font-family: 'Russo One', sans-serif;
+border-radius: 5%;
+margin: 30px 10px !important;
+}
+
+
+
+.bt div:hover::after{
+
+  content:"";
+  position: absolute;
+width:100%;
+height: 10px;
+bottom:0%;
+background-color: rgba(165, 42, 42, 0);
+left:0%;
+-webkit-box-shadow: -1px 10px 13px -5px rgba(110,106,104,1);
+-moz-box-shadow: -1px 10px 13px -5px rgba(110,106,104,1);
+box-shadow: -1px 10px 13px -5px rgba(110,106,104,1);
+border-radius: 50px;
+
+
+}
+
+.bt div:hover{
+
+  color: rgb(94, 2, 2);
+}
+
+.bt div:hover::before{
+
+  content:"";
+  position: absolute;
+width:100%;
+height: 200px;
+top:-180%;
+left:0%;
+border-radius:20px;
+border:1px solid grey;
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.616);
+background-blend-mode: overlay;
+color:rgb(255, 255, 255);
+padding: 20% 10px;
+-webkit-box-shadow: -1px 10px 13px -5px rgba(110,106,104,1);
+-moz-box-shadow: -1px 10px 13px -5px rgba(110,106,104,1);
+box-shadow: -1px 10px 13px -5px rgba(110,106,104,1);
+
+}
+
+
+.bt #t1:hover::before{
+background-image: url('../components/images/nextevents/chikmglore.jpg');
+content: 'Jilla Vakkaligara Samudhaya Bhavana  9, 10, 11 &12 March 2018';
+
+}
+.bt #t2:hover::before{
+  background-image: url('../components/images/nextevents/mng.jpg');
+  content: 'TMA PAI International Hall 23, 24 & 25 Nov 2018 ';
+
+  }
+  .bt #t3:hover::before{
+    background-image: url('../components/images/nextevents/mysore.jpg');
+    content: ' Radisson Blu Plaza Hotel 22, 23 & 24 Jun 2018';
+
+    }
+    .bt #t4:hover::before{
+      background-image: url('../components/images/nextevents/shivamogga.jpg');
+      content: 'Sarji Convention  Hall 17, 18 & 19 Aug 2018  ';
+
+      }
+
+      .bt #t5:hover::before{
+        background-image: url('../components/images/nextevents/hubbali.jpg');
+        content: '12, 13 & 14 Oct 2018 Denissons Hotel ';
+
+        }
+      .bt #t6:hover::before{
+        background-image: url('../components/images/nextevents/tumkur.jpg');
+        content: 'Bandimane Kalyana Mantapa 18, 19 & 20 Jan 2019 ';
+
+        }
+       
+          .bt #t7:hover::before{
+            background-image: url('../components/images/nextevents/mysore.jpg');
+            content: 'Radisson Blu Plaza Hotel 8, 9 & 10 March 2019';
+
+            }
+
+            .bt #t8:hover::before{
+              background-image: url('../components/images/nextevents/bellery.jpg');
+              content: 'Kamma Bhavan 14, 15 & 16 June 2019';
+  
+              }
+              .bt #t9:hover::before{
+                background-image: url('../components/images/nextevents/davangere.jpg');
+                content: 'SS Convention Center 17, 18 & 19 August 2019';
+    
+                }
+  
+
+.glry .tile-viewport {
+    height: 300px !important;
+  }
+
+
+.glry .tile-viewport img{
+    height: auto !important;
+    
+  }
+
+.bt div:hover{
+
+    background-color: rgba(104, 30, 7, 0);
+    transition:0.3s;
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .btn-container button{
+
+        padding: 5px 30px;
+        margin: 10px auto !important;
+        width: 200px !important;
+        margin-left:-15px!important;
+        }
+
+}
+
+.containergly {
+
+  width: 100%;
+  background:url('../components/images/rings1.png'),  linear-gradient(135deg, floralwhite 54%, rgba(224,224,224,0) 100%);
+background-blend-mode: overlay;
+background-color:rgba(248, 230, 193, 0.411);
+background-position: center;
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-blend-mode: overlay;
+background-size: auto !important;
+
+}
+
+.containergly div{
+
+  margin:auto;
+
+
+}
